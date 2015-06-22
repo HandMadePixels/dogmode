@@ -1,0 +1,15 @@
+.image-gallery { 
+	text-align: center; }
+
+.image-gallery img { 
+  border-radius: 50%;
+  opacity: .6;
+}
+
+.image-gallery img:hover { 
+  opacity: 1;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}

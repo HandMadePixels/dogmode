@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<title>DogMode | south outside webcam </title>
+<META name="Description" content="Since 1999, DogMode has been pioneering non-traditional daycare and boarding. DogMode was built on the premise that “a tired dog is a good dog”. Our facility was designed to offer you a modern alternative to the traditional “kennel” style boarding facilities. All of our guests at DogMode enjoy the freedom of being off-leash in a supervised environment that provides enough space for some serious play. Dogs are allowed to run, bark and play till their hearts content without the fear of disturbing a non-dog loving neighbor or breaking one of our valley’s leash law regulations.">
+
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="Copyright" content="DogMode http://www.dogmode.com/">
+
+<link rel="StyleSheet" href="css/menu.css" type="text/css">
+<link rel="StyleSheet" href="css/dogmodestyle.css" type="text/css">
+
+<script language="JavaScript" type="text/javascript" src="js/javascripts.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/pop-closeup.js"></script>
+
+<style type="text/css">
+<!--
+body,td,th {
+	color: 888888;
+}
+body {
+	background-image: url(img/bg.gif);
+	background-repeat: repeat;
+}
+-->
+</style></head>
+
+<BODY>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16693581-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="img/top.gif" width="1024" height="20"></td>
+  </tr>
+  <tr>
+    <td width=1023 valign="bottom"><img src="img/headerpic.jpg" alt="header photo"></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="blue"><script language="JavaScript" type="text/javascript" src="js/menu.js"></script></td>
+  </tr>
+</table>
+
+<table width="1024" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+	<tr>
+    	<td colspan="7" align="center" valign="top" class="title">&nbsp;</td>
+    </tr>
+    <tr>
+    	<td>&nbsp;</td>
+        <td colspan="5" align="center" valign="top" class="title">South Outside Webcam</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="5" align="center" valign="top" class="title">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+    	<td width="25">&nbsp;</td>
+        <td colspan="5" align="center" valign="top" class="lightgrey">
+		<br>
+		<br>
+<!--
+		<br>
+			<b>If the web cams are not working for you, please make sure you have installed the latest Java Runtime Environment and your security settings allow Java applications to run in your browser.  
+			You can download the most recent version of Java <a href="http://www.java.com/en/download/index.jsp" target="_blank">here</a>.</b>
+        <br>
+        <br>
+			<applet code="CaptureClient.class" codebase="http://video.dogmode.com:8080" width="720" height="480" alt="South Outside Webcam">
+              <param name="image" value="http://video.dogmode.com:8080/jpeg.cgi?3">
+              <param name="delayMS" value="1">
+              <param name="status" value="1">
+              <param name="statusText" value="Reload in %s seconds">
+              <param name="statusTextColor" value="#ffffff">
+              <param name="backgroundColor" value="#000000">
+              <param name="url" value="">
+              <param name="noSplash" value="1">
+            </applet>
+
+-->
+			<SCRIPT LANGUAGE="JavaScript">
+// Set the BaseURL to the URL of your camera
+var BaseURL = "http://video.dogmode.com/";
+
+// DisplayWidth & DisplayHeight specifies the displayed width & height of the image.
+// You may change these numbers, the effect will be a stretched or a shrunk image
+var DisplayWidth = "704";
+var DisplayHeight = "480";
+
+// This is the path to the image generating file inside the camera itself
+var File = "axis-cgi/mjpg/video.cgi?resolution=4CIF&camera=4&clock=0&date=0&text=0";
+// No changes required below this point
+var output = "";
+if ((navigator.appName == "Microsoft Internet Explorer") &&
+   (navigator.platform != "MacPPC") && (navigator.platform != "Mac68k"))
+{
+  // If Internet Explorer under Windows then use ActiveX 
+  output  = '<OBJECT ID="Player" width='
+  output += DisplayWidth;
+  output += ' height=';
+  output += DisplayHeight;
+  output += ' CLASSID="CLSID:DE625294-70E6-45ED-B895-CFFA13AEB044" ';
+  output += 'CODEBASE="';
+  output += BaseURL;
+  output += 'activex/AMC.cab#version=4,0,20,2">';
+  output += '<PARAM NAME="MediaURL" VALUE="';
+  output += BaseURL;
+  output += File + '">';
+  output += '<param name="MediaType" value="mjpeg-unicast">';
+  output += '<param name="ShowStatusBar" value="0">';
+  output += '<param name="ShowToolbar" value="0">';
+  output += '<param name="AutoStart" value="1">';
+  output += '<param name="StretchToFit" value="1">';
+  // Remove the '//' for the ptz settings below to use the code for click-in-image. 
+     //  output += '<param name="PTZControlURL" value="';
+     //  output += BaseURL;
+     //  output += '/axis-cgi/com/ptz.cgi?camera=1">';
+     //  output += '<param name="UIMode" value="ptz-relative">'; // or "ptz-absolute"
+  output += '<BR><B>Axis Media Control</B><BR>';
+  output += 'The AXIS Media Control, which enables you ';
+  output += 'to view live image streams in Microsoft Internet';
+  output += ' Explorer, could not be registered on your computer.';
+  output += '<BR></OBJECT>';
+} else {
+  // If not IE for Windows use the browser itself to display
+  theDate = new Date();
+  output  = '<IMG SRC="';
+  output += BaseURL;
+  output += File;
+  output += '&dummy=' + theDate.getTime().toString(10);
+  output += '" HEIGHT="';
+  output += DisplayHeight;
+  output += '" WIDTH="';
+  output += DisplayWidth;
+  output += '" ALT="Camera Image">';
+}
+document.write(output);
+document.Player.ToolbarConfiguration = "play,+snapshot,+fullscreen"
+
+// Remove the '//' below to use the code for Motion Detection. 
+  // document.Player.UIMode = "MDConfig";
+  // document.Player.MotionConfigURL = "/axis-cgi/operator/param.cgi?ImageSource=0"
+  // document.Player.MotionDataURL = "/axis-cgi/motion/motiondata.cgi";
+</SCRIPT>
+
+		<br>
+        <br>
+        <br>
+        </td>
+      <td width="25">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="5" align="center" valign="top" class="title">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+</table>
+
+<table width="1024" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+    <td class="blue" height="3"></td>
+  </tr>
+  <tr>
+    <td><img src="img/bottom.gif" width="1024" height="20"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#9E8D78">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#9E8D78">&nbsp;<script language="JavaScript" type="text/javascript" src="js/footer.js"></script></td>
+  </tr>
+  <tr>
+    <td bgcolor="#9E8D78">&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+</html>

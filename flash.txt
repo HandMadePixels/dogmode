@@ -1,0 +1,3 @@
+logo=      Your Website Title
+&logo-FAQ=      Your Website Title FAQ
+&url=index.html
