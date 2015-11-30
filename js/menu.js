@@ -3,7 +3,7 @@
 
 var leftspacing		= "20"
 var rightspacing	= "20"
-var menuside		= "right"
+var menuside		= "left"
 var menuwidth		= "400"
 
 document.write('<table cellpadding="0" cellspacing="0" border="0" class="menutable"><tr><td class="printhide" align="'+menuside+'">');
@@ -46,8 +46,8 @@ document.write('      <li><a href="docs/boarding-info-20150508.pdf" target="_bla
 document.write('    </ul>');
 document.write('  </li>');
 
-document.write('  <li style="width: 100px;"><a href="gallery.html">gallery&#160;&#160;</a>');
-document.write('  </li>');
+//document.write('  <li style="width: 100px;"><a href="gallery.html">gallery&#160;&#160;</a>');
+//document.write('  </li>');
 
 document.write('  <li style="width: 105px;"><a href="webcams.htm">webcams&#160;&#160;&#160;&#160;</a>');
 document.write('    <ul>');
@@ -58,8 +58,8 @@ document.write('      <li><a href="webcams_northside_yard.htm">north outside</a>
 document.write('    </ul>');
 document.write('  </li>');
 
-document.write('  <li style="width: 120px;"><a href="memorials.htm">memorials&#160;&#160;&#160;&#160;</a>');
-document.write('  </li>');
+//document.write('  <li style="width: 120px;"><a href="memorials.htm">memorials&#160;&#160;&#160;&#160;</a>');
+//document.write('  </li>');
 
 document.write('  <li style="width: 95px;"><a href="contact.htm">contact&#160;&#160;&#160;&#160;</a></li>');
 
