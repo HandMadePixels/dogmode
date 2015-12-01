@@ -12,7 +12,7 @@ document.write('		<td colspan="2"><img src="img/top.gif" width="1024" height="20
 document.write('	</tr>');
 document.write('	<tr>');
 document.write('		<td>');
-document.write('			<img src="img/headerpic.jpg" alt="dogmode logo">');
+document.write('			<img src="img/headerpic.png" alt="dogmode logo">');
 document.write('		</td>');
 document.write('	</tr>');
 document.write('	<tr>');
