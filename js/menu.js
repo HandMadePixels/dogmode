@@ -3,7 +3,7 @@
 
 var leftspacing		= "20"
 var rightspacing	= "20"
-var menuside		= "left"
+var menuside		= "right"
 var menuwidth		= "400"
 
 document.write('<table cellpadding="0" cellspacing="0" border="0" class="menutable"><tr><td class="printhide" align="'+menuside+'">');
